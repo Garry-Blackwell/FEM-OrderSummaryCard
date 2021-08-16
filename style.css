@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url("file:///C:/Users/PC/Desktop/FrontEndMentor/order-summary-component-main/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-size: contain;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.page-wrapper {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.main {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.background {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    border-radius: 0 0 20px 20px;
+}
+
+.header {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    height: 100%
+}
+
+.header h2 {
+    font-size: 32px;
+}
+
+.header p {
+    margin-top: 15px;
+    font-size: 16px;
+
+}
+#header-img {
+    border-radius: 20px 20px 0 0;
+}
+.pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    background-color: hsl(230,75%,98%);
+    border-radius: 10px;  
+    height: 90px;
+    width: 100%;
+}
+
+.pricing-wrapper {
+    margin-right: 50px;
+}
+.pricing h2 {
+    font-size: 20px;
+}
+.pricing p {
+    font-size: 16px;
+}
+.pricing img {
+    display: flex;
+    height: 45px;
+    width: 45px;
+}
+
+ a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pricing a {
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+
+#proceed {
+    background-color:hsl(245, 75%, 52%);
+    border-radius: 10px;
+    height: 45px;
+    width: 100%;
+    box-shadow: 20px 20px 20px hsl(225, 100%, 94%);
+}
+
+#proceed a {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+}
+
+#cancel {
+    color: grey;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    margin-top: 30px;
+    width: 50%;
+    font-weight: 900;
+}
+
+#cancel a {
+    text-decoration: none;
+    font-weight: 900;
+    color: grey;
+    font-size: 18px;
+}
+
